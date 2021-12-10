@@ -1,0 +1,28 @@
+{
+  "name": "learnscape-api",
+  "version": "1.0.0",
+  "description": "This is the api for learnscape",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "docker"
+  ],
+  "author": "Fantastic Four Team",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "util": "^0.12.4"
+  }
+}

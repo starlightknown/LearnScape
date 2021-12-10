@@ -15,7 +15,7 @@
 		"socials": {
 			"website": "https://tikv.org",
 			"github": "https://github.com/tikv/tikv",
-			"twitter": "https://twitter.com/tikvproject",
+			"twitter": "https://twitter.com/tikvproject"
 		},
 		"programming-languages": [
 			"rust",
@@ -44,7 +44,7 @@
 		"socials": {
 			"website": "https://vitess.io/",
 			"github": "https://https://github.com/vitessio/vitess",
-			"twitter": "https://twitter.com/vitessio",
+			"twitter": "https://twitter.com/vitessio"
 		},
 		"programming-languages": [
 			"Go",
