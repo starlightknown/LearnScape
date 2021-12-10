@@ -1,6 +1,6 @@
 {
   "name": "learnscape",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Project developed to make cncf landscape easier and more accissible to beginners",
   "main": "start.js",
   "scripts": {
