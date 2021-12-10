@@ -13,8 +13,8 @@
       "github": "https://github.com/tikv/tikv",
       "twitter": "https://twitter.com/tikvproject"
     },
-    "programming-languages": ["Rust", "Python", "C"],
-    "programs-involvement": ["gsoc", "lfx"]
+    "programmingLanguages": ["Rust", "Python", "C"],
+    "programsInvolvement": ["gsoc", "lfx"]
   },
   {
     "name": "Kyverno",
@@ -30,8 +30,8 @@
       "github": "https://github.com/kyverno/kyverno",
       "twitter": "https://twitter.com/kyverno"
     },
-    "programming-languages": ["Go", "Shell"],
-    "programs-involvement": ["lfx"]
+    "programmingLanguages": ["Go", "Shell"],
+    "programsInvolvement": ["lfx"]
   },
   {
     "name": "Kubernetes",
@@ -50,8 +50,8 @@
       "github": "https://github.com/kubernetes/kubernetes",
       "twitter": "https://twitter.com/kubernetesio"
     },
-    "programming-languages": ["Go", "Shell"],
-    "programs-involvement": ["gsoc", "lfx", "outreachy"]
+    "programmingLanguages": ["Go", "Shell"],
+    "programsInvolvement": ["gsoc", "lfx", "outreachy"]
   },
   {
     "name": "Thanos",
@@ -67,8 +67,8 @@
       "github": "https://github.com/thanos-io/thanos",
       "twitter": "https://twitter.com/ThanosMetrics"
     },
-    "programming-languages": ["Go", "TypeScript", "JavaScript"],
-    "programs-involvement": ["gsoc", "lfx"]
+    "programmingLanguages": ["Go", "TypeScript", "JavaScript"],
+    "programsInvolvement": ["gsoc", "lfx"]
   },
   {
     "name": "Prometheus",
@@ -84,8 +84,8 @@
       "github": "https://github.com/thanos-io/thanos",
       "twitter": "https://twitter.com/ThanosMetrics"
     },
-    "programming-languages": ["Go", "TypeScript", "Jsonnet"],
-    "programs-involvement": ["gsoc", "lfx"]
+    "programmingLanguages": ["Go", "TypeScript", "Jsonnet"],
+    "programsInvolvement": ["gsoc", "lfx"]
   },
   {
     "name": "Litmus Chaos",
@@ -101,8 +101,8 @@
       "github": "https://github.com/litmuschaos/litmus",
       "twitter": "https://twitter.com/litmuschaos"
     },
-    "programming-languages": ["TypeScript", "Go", "JavaScript"],
-    "programs-involvement": ["lfx"]
+    "programmingLanguages": ["TypeScript", "Go", "JavaScript"],
+    "programsInvolvement": ["lfx"]
   },
   {
     "name": "Open Telemetry",
@@ -118,8 +118,8 @@
       "github": "https://github.com/open-telemetry/community",
       "twitter": "https://twitter.com/opentelemetry"
     },
-    "programming-languages": ["C#"],
-    "programs-involvement": ["outreachy"]
+    "programmingLanguages": ["C#"],
+    "programsInvolvement": ["outreachy"]
   },
   {
     "name": "Linkerd",
@@ -135,8 +135,8 @@
       "github": "https://github.com/linkerd/linkerd2",
       "twitter": "https://twitter.com/linkerd"
     },
-    "programming-languages": ["Go", "JavaScript", "Rust", "Shell"],
-    "programs-involvement": ["gsoc", "lfx"]
+    "programmingLanguages": ["Go", "JavaScript", "Rust", "Shell"],
+    "programsInvolvement": ["gsoc", "lfx"]
   },
   {
     "name": "Envoy",
@@ -152,8 +152,8 @@
       "github": "https://github.com/envoyproxy/envoy",
       "twitter": "https://twitter.com/envoyproxy"
     },
-    "programming-languages": ["C++", "Starlark", "Python", "Shell"],
-    "programs-involvement": ["gsoc", "lfx"]
+    "programmingLanguages": ["C++", "Starlark", "Python", "Shell"],
+    "programsInvolvement": ["gsoc", "lfx"]
   },
   {
     "name": "CoreDNS",
@@ -172,8 +172,8 @@
       "github": "https://github.com/coredns/coredns",
       "twitter": "https://coredns.io/"
     },
-    "programming-languages": ["Go"],
-    "programs-involvement": ["gsoc", "lfx"]
+    "programmingLanguages": ["Go"],
+    "programsInvolvement": ["gsoc", "lfx"]
   },
   {
     "name": "Helm",
@@ -189,8 +189,8 @@
       "github": "https://github.com/helm/helm",
       "twitter": "https://twitter.com/helmpack"
     },
-    "programming-languages": ["Go", "Shell"],
-    "programs-involvement": []
+    "programmingLanguages": ["Go", "Shell"],
+    "programsInvolvement": []
   },
   {
     "name": "Etcd",
@@ -209,8 +209,8 @@
       "github": "https://github.com/etcd-io",
       "twitter": "https://twitter.com/etcdio"
     },
-    "programming-languages": ["Go", "Shell", "Jsonnet"],
-    "programs-involvement": ["lfx"]
+    "programmingLanguages": ["Go", "Shell", "Jsonnet"],
+    "programsInvolvement": ["lfx"]
   },
   {
     "name": "CNI",
@@ -226,7 +226,7 @@
       "github": "https://github.com/containernetworking/cni",
       "twitter": "https://twitter.com/CloudNativeFdn"
     },
-    "programming-languages": ["Go", "Shell"],
-    "programs-involvement": []
+    "programmingLanguages": ["Go", "Shell"],
+    "programsInvolvement": []
   }
 ]
