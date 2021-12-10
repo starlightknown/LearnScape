@@ -1,61 +1,233 @@
 [
-	{
-		"id": 0,
-		"name": "TiKV",
-		"tags": [
-			"cncf-graduated", 
-			"LF-project", 
-			"Open Source Software", 
-			"CII best practices passing"
-		],
-		"category": [
-			"App Definition and Development", 
-			"Database"
-		],
-		"socials": {
-			"website": "https://tikv.org",
-			"github": "https://github.com/tikv/tikv",
-			"twitter": "https://twitter.com/tikvproject"
-		},
-		"programming-languages": [
-			"rust",
-			"python",
-			"c"
-		],
-		"programs-involvement": [
-			"gsoc",
-			"lfx",
-			"outreachy"
-		]
-	},
-	{
-		"id": 1,
-		"name": "Vitess",
-		"tags": [
-			"Cncf-Graduated", 
-			"LF-project", 
-			"Open Source Software", 
-			"CII best practices passing"
-		],
-		"category": [
-			"App Definition and Development", 
-			"Database"
-		],
-		"socials": {
-			"website": "https://vitess.io/",
-			"github": "https://https://github.com/vitessio/vitess",
-			"twitter": "https://twitter.com/vitessio"
-		},
-		"programming-languages": [
-			"Go",
-			"Javascript",
-			"Java",
-			"Typescript"
-		],
-		"programs-involvement": [
-			"gsoc",
-			"lfx",
-			"outreachy"
-		]
-	}
+  {
+    "id": 0,
+    "name": "TiKV",
+    "tags": [
+      "cncf-graduated",
+      "LF-project",
+      "Open Source Software",
+      "CII best practices passing"
+    ],
+    "category": ["App Definition and Development", "Database"],
+    "socials": {
+      "website": "https://tikv.org",
+      "github": "https://github.com/tikv/tikv",
+      "twitter": "https://twitter.com/tikvproject"
+    },
+    "programming-languages": ["Rust", "Python", "C"],
+    "programs-involvement": ["gsoc", "lfx"]
+  },
+  {
+    "name": "Kyverno",
+    "tags": [
+      "cncf-sandbox",
+      "LF-project",
+      "CII best practices 21%",
+      "Open Source Software"
+    ],
+    "category": ["Provisioning", "Security and Compliance"],
+    "socials": {
+      "website": "https://kyverno.io",
+      "github": "https://github.com/kyverno/kyverno",
+      "twitter": "https://twitter.com/kyverno"
+    },
+    "programming-languages": ["Go", "Shell"],
+    "programs-involvement": ["lfx"]
+  },
+  {
+    "name": "Kubernetes",
+    "tags": [
+      "cncf-graduated",
+      "LF-project",
+      "CII best practices passing",
+      "Open Source Software"
+    ],
+    "category": [
+      "Orchestration and Management",
+      "Scheduling and Orchestration"
+    ],
+    "socials": {
+      "website": "https://kubernetes.io/",
+      "github": "https://github.com/kubernetes/kubernetes",
+      "twitter": "https://twitter.com/kubernetesio"
+    },
+    "programming-languages": ["Go", "Shell"],
+    "programs-involvement": ["gsoc", "lfx", "outreachy"]
+  },
+  {
+    "name": "Thanos",
+    "tags": [
+      "cncf-incubating",
+      "LF-project",
+      "CII best practices passing",
+      "Open Source Software"
+    ],
+    "category": ["Observability and Analysis", "Monitoring"],
+    "socials": {
+      "website": "https://thanos.io/",
+      "github": "https://github.com/thanos-io/thanos",
+      "twitter": "https://twitter.com/ThanosMetrics"
+    },
+    "programming-languages": ["Go", "TypeScript", "JavaScript"],
+    "programs-involvement": ["gsoc", "lfx"]
+  },
+  {
+    "name": "Prometheus",
+    "tags": [
+      "cncf-graduated",
+      "LF-project",
+      "CII best practices passing",
+      "Open Source Software"
+    ],
+    "category": ["Observability and Analysis", "Monitoring"],
+    "socials": {
+      "website": "https://thanos.io/",
+      "github": "https://github.com/thanos-io/thanos",
+      "twitter": "https://twitter.com/ThanosMetrics"
+    },
+    "programming-languages": ["Go", "TypeScript", "Jsonnet"],
+    "programs-involvement": ["gsoc", "lfx"]
+  },
+  {
+    "name": "Litmus Chaos",
+    "tags": [
+      "cncf-sandbox",
+      "LF-project",
+      "Open Source Software",
+      "CII best practices 82%"
+    ],
+    "category": ["Observability and Analysis", "Chaos Engineering"],
+    "socials": {
+      "website": "https://litmuschaos.io/",
+      "github": "https://github.com/litmuschaos/litmus",
+      "twitter": "https://twitter.com/litmuschaos"
+    },
+    "programming-languages": ["TypeScript", "Go", "JavaScript"],
+    "programs-involvement": ["lfx"]
+  },
+  {
+    "name": "Open Telemetry",
+    "tags": [
+      "cncf-incubating",
+      "LF-project",
+      "Open Source Software",
+      "No CII best practices"
+    ],
+    "category": ["Observability and Analysis", "Tracing"],
+    "socials": {
+      "website": "https://opentelemetry.io/",
+      "github": "https://github.com/open-telemetry/community",
+      "twitter": "https://twitter.com/opentelemetry"
+    },
+    "programming-languages": ["C#"],
+    "programs-involvement": ["outreachy"]
+  },
+  {
+    "name": "Linkerd",
+    "tags": [
+      "cncf-graduated",
+      "LF-project",
+      "Open Source Software",
+      "CII best practices passing"
+    ],
+    "category": ["Orchestration and Management", "Service Mesh"],
+    "socials": {
+      "website": "https://linkerd.io/",
+      "github": "https://github.com/linkerd/linkerd2",
+      "twitter": "https://twitter.com/linkerd"
+    },
+    "programming-languages": ["Go", "JavaScript", "Rust", "Shell"],
+    "programs-involvement": ["gsoc", "lfx"]
+  },
+  {
+    "name": "Envoy",
+    "tags": [
+      "cncf-graduated",
+      "LF-project",
+      "Open Source Software",
+      "CII best practices passing"
+    ],
+    "category": ["Orchestration and Management", "Service Proxy"],
+    "socials": {
+      "website": "https://www.envoyproxy.io/",
+      "github": "https://github.com/envoyproxy/envoy",
+      "twitter": "https://twitter.com/envoyproxy"
+    },
+    "programming-languages": ["C++", "Starlark", "Python", "Shell"],
+    "programs-involvement": ["gsoc", "lfx"]
+  },
+  {
+    "name": "CoreDNS",
+    "tags": [
+      "cncf-graduated",
+      "LF-project",
+      "Open Source Software",
+      "CII best practices passing"
+    ],
+    "category": [
+      "Orchestration and Management",
+      "Coordination & Service Discovery"
+    ],
+    "socials": {
+      "website": "https://twitter.com/corednsio",
+      "github": "https://github.com/coredns/coredns",
+      "twitter": "https://coredns.io/"
+    },
+    "programming-languages": ["Go"],
+    "programs-involvement": ["gsoc", "lfx"]
+  },
+  {
+    "name": "Helm",
+    "tags": [
+      "cncf-graduated",
+      "LF-project",
+      "Open Source Software",
+      "CII best practices passing"
+    ],
+    "category": ["App Definition and Development", "Application Definition"],
+    "socials": {
+      "website": "https://helm.sh/",
+      "github": "https://github.com/helm/helm",
+      "twitter": "https://twitter.com/helmpack"
+    },
+    "programming-languages": ["Go", "Shell"],
+    "programs-involvement": []
+  },
+  {
+    "name": "Etcd",
+    "tags": [
+      "cncf-graduated",
+      "LF-project",
+      "Open Source Software",
+      "CII best practices passing"
+    ],
+    "category": [
+      "Orchestration and Management",
+      "Coordination & Service Discovery"
+    ],
+    "socials": {
+      "website": "https://github.com/etcd-io",
+      "github": "https://github.com/etcd-io",
+      "twitter": "https://twitter.com/etcdio"
+    },
+    "programming-languages": ["Go", "Shell", "Jsonnet"],
+    "programs-involvement": ["lfx"]
+  },
+  {
+    "name": "CNI",
+    "tags": [
+      "cncf-incubating",
+      "LF-project",
+      "Open Source Software",
+      "CII best practices 72%"
+    ],
+    "category": ["Runtime", "Cloud Native Network"],
+    "socials": {
+      "website": "https://github.com/containernetworking",
+      "github": "https://github.com/containernetworking/cni",
+      "twitter": "https://twitter.com/CloudNativeFdn"
+    },
+    "programming-languages": ["Go", "Shell"],
+    "programs-involvement": []
+  }
 ]
