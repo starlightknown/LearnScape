@@ -1,1 +1,4 @@
 PORT=3000
+DATABASE_URL=<Dabase url provided to you by mongodb>
+DATABASE_PASSWORD=<Datbase Password you entered>
+NODE_ENV=development
