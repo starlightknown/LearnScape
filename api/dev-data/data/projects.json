@@ -1,6 +1,5 @@
 [
   {
-    "id": 0,
     "name": "TiKV",
     "tags": [
       "cncf-graduated",
