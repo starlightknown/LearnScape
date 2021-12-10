@@ -6,6 +6,7 @@ const projectController = require('../controllers/projectsController.js');
 
 //Assignment and route handling
 const route = express.Router();
+route.use(express.json());
 
 route.route('/').get(projectController.getAllProjects);
 
