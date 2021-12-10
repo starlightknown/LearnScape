@@ -1,0 +1,61 @@
+[
+	{
+		"id": 0,
+		"name": "TiKV",
+		"tags": [
+			"cncf-graduated", 
+			"LF-project", 
+			"Open Source Software", 
+			"CII best practices passing"
+		],
+		"category": [
+			"App Definition and Development", 
+			"Database"
+		],
+		"socials": {
+			"website": "https://tikv.org",
+			"github": "https://github.com/tikv/tikv",
+			"twitter": "https://twitter.com/tikvproject",
+		},
+		"programming-languages": [
+			"rust",
+			"python",
+			"c"
+		],
+		"programs-involvement": [
+			"gsoc",
+			"lfx",
+			"outreachy"
+		]
+	},
+	{
+		"id": 1,
+		"name": "Vitess",
+		"tags": [
+			"Cncf-Graduated", 
+			"LF-project", 
+			"Open Source Software", 
+			"CII best practices passing"
+		],
+		"category": [
+			"App Definition and Development", 
+			"Database"
+		],
+		"socials": {
+			"website": "https://vitess.io/",
+			"github": "https://https://github.com/vitessio/vitess",
+			"twitter": "https://twitter.com/vitessio",
+		},
+		"programming-languages": [
+			"Go",
+			"Javascript",
+			"Java",
+			"Typescript"
+		],
+		"programs-involvement": [
+			"gsoc",
+			"lfx",
+			"outreachy"
+		]
+	}
+]
