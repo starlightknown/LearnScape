@@ -1,4 +1,9 @@
 PORT=3000
+NODE_ENV=development
+
 DATABASE_URL=<Dabase url provided to you by mongodb>
 DATABASE_PASSWORD=<Datbase Password you entered>
-NODE_ENV=development
+DATABASE_USERNAME=<Your-username>
+
+TWILIO_ACCOUNT_SID=<Twillio SID>
+TWILIO_AUTH_TOKEN=<TWillio Token>

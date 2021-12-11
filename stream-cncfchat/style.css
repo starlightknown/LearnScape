@@ -1,0 +1,15 @@
+body { margin: 0; }
+.str-chat-channel .str-chat__container {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    margin-top: 10%;
+}
+.str-chat-channel .str-chat__container .str-chat__main-panel {
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

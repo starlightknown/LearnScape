@@ -1,0 +1,36 @@
+#Run docker-compose up --build
+version: "3"
+services:
+  learnscape_api:
+    container_name: learnscape-api-container
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .env
+    ports:
+      - "3000:3000"
+    links:
+      - mongodb
+    depends_on:
+      - mongodb
+    environment:
+      WAIT_HOSTS: mongodb:27017
+    networks:
+      - node-webapp-network
+  mongodb:
+    container_name: mongodb
+    image: mongo:4.4.6
+    volumes:
+      - ~/mongo:/data/db
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${DATABASE_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${DATABASE_PASSWORD}
+      - MONGO_INITDB_DATABASE=admin
+    networks:
+      - node-webapp-network
+networks:
+  node-webapp-network:
+    driver: bridge

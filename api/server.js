@@ -23,3 +23,25 @@ mongoose.connect(DB, {
 app.listen(port, () => {
 	log(chalk.cyan(`🏃 Server started at http://localhost:${port}`));
 });
+
+function serverDownAlerts() {
+	//Twillio function here
+}
+
+process.on('unhandledRejection', err => {
+	console.log(err.name, err.message);
+	console.log('Unhandled Error Detected! 💥 Closing down the application...');
+
+	server.close(() => {
+		serverDownAlerts();
+		process.exit(1);
+	});
+});
+
+process.on('SIGTERM', () => {
+	console.log('SIGTERM received. Shutting down the server 👋');
+	server.close(() => {
+		serverDownAlerts();
+		console.log('💥 Process terminated');
+	});
+});
