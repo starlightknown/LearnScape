@@ -24,7 +24,7 @@ mongoose.connect(DB, {
 	log(chalk.cyan('💽 Database Connected Successfully'));
 })
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
 	log(chalk.cyan(`🏃 Server started at http://localhost:${port}`));
 });
 
