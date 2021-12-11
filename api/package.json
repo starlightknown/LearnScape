@@ -4,7 +4,8 @@
   "description": "This is the api for learnscape",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon ./server.js"
+    "start": "nodemon ./server.js",
+    "start:dev": "NODE_ENV=production nodemon ./server.js"
   },
   "keywords": [
     "nodejs",

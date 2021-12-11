@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: learnscape-deployment
+  labels:
+    app: learnscape
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: learnscape
+  # The template section is configuration file in itself but it is configurations for pod as pod needs to have it's seperate configurations
+  template:
+    metadata:
+      labels:
+        app: learnscape
+    spec:
+      conainers:
+      - name: learnscape_depl
+      # You need to add the container registry published image link here
+        image: learnscape_container
+        ports:
+        - containerPort: 8080
