@@ -8,7 +8,7 @@
 
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #456990;
+  background-image: url("papaer.webp");
   color: #fff;
   overflow-x: hidden;
   padding-bottom: 50px;
@@ -39,7 +39,7 @@ h1 {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-  background: #456990;
+  
   padding: 50px 0;
 }
 
@@ -70,7 +70,7 @@ h1 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #998688;
+  background: #eb8e15;
 }
 
 .timeline ul li div::before {
