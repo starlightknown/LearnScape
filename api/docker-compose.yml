@@ -26,8 +26,8 @@ services:
     ports:
       - "27017:27017"
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=kaiwalyakoparkar
-      - MONGO_INITDB_ROOT_PASSWORD=learnscape_kaiwalya
+      - MONGO_INITDB_ROOT_USERNAME=${DATABASE_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${DATABASE_PASSWORD}
       - MONGO_INITDB_DATABASE=admin
     networks:
       - node-webapp-network
