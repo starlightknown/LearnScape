@@ -304,7 +304,7 @@ If you would like to contribute to this api please go ahead and read [COC](../CO
 6. Now do ahead and create a new branch and move to the branch
 `git checkout -b fix-issue-<ISSUE-NUMBER>`
 
-7. Now do your fixes and changes.
+7. Now run `npm i` and once it's done do your fixes and changes.
 
 8. After done you can now push this changes. for doing that follow the following command chain
    - `git status` (Shows the changed files)
