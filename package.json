@@ -4,8 +4,12 @@
   "description": "Project developed to make cncf landscape easier and more accissible to beginners",
   "main": "start.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "node start install-children",
+    "start": "node start api:client",
+    "api:client": "node start api:client",
+    "client": "node start client",
+    "api": "node start api"
   },
   "repository": {
     "type": "git",
@@ -30,12 +34,20 @@
   "dependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
+    "chalk": "^4.1.2",
+    "concurrently": "^6.4.0",
+    "dotenv": "^10.0.0",
     "eslint": "^8.4.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "figlet": "^1.5.2",
     "husky": "^7.0.4",
+    "kill": "^0.0.2",
     "lint-staged": "^12.1.2",
+    "lodash": "^4.17.21",
     "material-ui": "^0.20.2",
+    "ngrok": "^4.2.2",
+    "path": "^0.12.7",
     "prettier": "^2.5.1",
     "react-router-dom": "^6.1.0",
     "twilio": "^3.71.3"
