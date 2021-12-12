@@ -32,7 +32,10 @@
     <div id="root"></div>
       <header>
         <nav class="navbar">
-          <div class="logo"><a href="#">LearnScape</a></div>
+          <div class="logo">
+            <a href="#">LearnScape:</a>
+          </div>
+          <div class="quote" id="changeText">Escape the traditional Learning road</div>
           <ul class="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Roadmap</a></li>
@@ -43,7 +46,6 @@
         <div class="text-content">
           <h2>The one stop platform for,<br>Everything CNCF</h2>
         </div>
-        <div class="text-content" id="changeText"></div>
 
         <div class="play-button">
           <span class="play">Play Video</span>
@@ -219,11 +221,16 @@
             padding: 15px 10px;
         }
         }
+
+        .quote{
+          margin-right: auto;
+          margin-left: 5px
+        }
         </style>
-        <script>var text = [" LearnScape: Escape the traditional Learning road", " LearnScape: A Landscape for your road to CNCF"];
+        <script>var text = ["A Landscape for your road to CNCF", "A beginner friendly project"];
           var counter = 0;
           var elem = document.getElementById("changeText");
-          var inst = setInterval(change, 1000);
+          var inst = setInterval(change, 3000);
           
           function change() {
             elem.innerHTML = text[counter];
