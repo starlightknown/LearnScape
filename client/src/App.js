@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Router>
-        <Navbar />
+        {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route exact path="/roadmap" render={() => {window.location.href="roadmap/index.html"}} />
