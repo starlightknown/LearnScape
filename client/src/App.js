@@ -1,40 +1,22 @@
 import React from 'react';
 // import { Switch } from 'react-router-dom';
-import { BrowserRouter,Routes, Route, Link} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import './App.css';
 import Home from './components/Home';
+import Navbar from './components/Navbar';
 
-export default function App() {
+function App() {
   return (
-      <BrowserRouter>
-    <div>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-      
+    <>
+    <Router>
+        <Navbar />
       <Routes>
-        <Route exact path="/" element={Home} />
-        <Route path="/about" element={About} />
+        <Route path="/" element={<Home />} />
+        <Route exact path="/roadmap" render={() => {window.location.href="roadmap/index.html"}} />
       </Routes>
-    </div>
-    </BrowserRouter>
-
+    </Router>
+    </>
   );
 }
 
-// function Home() {
-//   return (
-//     <div>
-//       <h2>Homezz</h2>
-//     </div>
-//   );
-// }
-
-function About() {
-  return (
-    <div>
-      <h1>About</h1>
-    </div>
-  );
-}
-
-
+export default App;
