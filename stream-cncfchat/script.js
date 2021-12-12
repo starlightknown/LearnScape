@@ -15,7 +15,6 @@ const channel = chatClient.channel('messaging', 'cncf', {
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRcrONo3lZ_nH08F2a6jZGaUTpP2ADpznp5uDN1yfxzAPThqPvTkkBdPmuwQlKS9KRNDA&usqp=CAU',
   name: 'Ask CNCF questions' });
 
-
 const App = () => /*#__PURE__*/
 React.createElement(Chat, { client: chatClient, theme: 'messaging light' }, /*#__PURE__*/
 React.createElement(Channel, { channel: channel }, /*#__PURE__*/
