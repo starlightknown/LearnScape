@@ -285,7 +285,7 @@ If you would like to contribute to this api please go ahead and read [COC](../CO
 ### Project setup & Contribution steps
 
 1. Fork the project
-![forking the project]()
+![forking the project](https://i.imgur.com/qbVouuV.png)
 
 2. Once you are in your fork the url should look something like
 `https://github.com/<YOUR-USERNAME>/LearnScape/`
