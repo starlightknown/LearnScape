@@ -14,7 +14,7 @@ This platform is developed such that it can guide new folks and learn concepts s
 
 This section is the backend/ api of the project. The fronted/client consumes this api in order to fetch the details of the several cncf projects and their information which can be needed by the beginner.
 
-## 🛤 Routes Available
+## 🛤 Routes Available -
 
 ### 🚩 1. `/api/v1/projects` 
 Gets all the projects in the database. The typical response looks like
@@ -65,7 +65,7 @@ And ideal respons will look like
 
 ```
 
-### 🚩 🚩 2. `/api/v1/projects/<project id>`
+### 🚩 2. `/api/v1/projects/<project id>`
 Gets specific project from large project data. The project id here is given by the database.
 
 **Example 1**
@@ -272,3 +272,51 @@ And ideal respons will look like
     ]
 }
 ```
+
+## 🙌 Want to contribute?
+If you would like to contribute to this api please go ahead and read [COC](../CODE_OF_CONDUCT.md) and [Contributing Guideline](../CONTRIBUTING.md). Once you read through them agree to policies of this project go ahead with **Project setup & Contribution** steps below
+
+### Pre-requisites
+
+1. NodeJs installed in local environment.
+2. Git installed in local environment.
+3. GitHub account.
+
+### Project setup & Contribution steps
+
+1. Fork the project
+![forking the project]()
+
+2. Once you are in your fork the url should look something like
+`https://github.com/<YOUR-USERNAME>/LearnScape/`
+
+3. Go to preferred folder in your computer and paste the following command (Only one of it if you don't have ssh setup then go with HTTP command)
+   - HTTP
+   `git clone https://github.com/<YOUR-USERNAME>/LearnScape.git`
+   - SSH
+   `git clone git@github.com:<YOUR-USERNAME>/LearnScape.git`
+
+4. Now enter the folder by running the following command
+`cd LearnScape/api`
+
+5. Now you are in the `/api` folder
+
+6. Now do ahead and create a new branch and move to the branch
+`git checkout -b fix-issue-<ISSUE-NUMBER>`
+
+7. Now do your fixes and changes.
+
+8. After done you can now push this changes. for doing that follow the following command chain
+   - `git status` (Shows the changed files)
+   - `git add .` (Will add all the files to staging area)
+   - `git commit -m "feat/docs/fix: :emoji-name: <EXPLAIN-YOUR_CHANGES>"`
+   - `git push origin fix-issue-<ISSUE-NUMBER>`
+
+9. After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
+
+10. Now fill in the form template of the pull request
+
+11. Click on **Submit**
+
+12. Hurrey! You just did your contribution to this project 🎉
+
