@@ -22,8 +22,8 @@ This platform is developed such that it can guide new folks and learn concepts s
 ## 🔧 How we built it-
 1. Developed an API to get all the projects in the database and specific project from large project data. The project id is given by the database. This API will also give you number of project provided in limit field and you can increment the page no to get the next limit frame data along all names of the projects. Check out the documentation of API [here](https://github.com/starlightknown/LearnScape/tree/main/api)
 2. The fronted/client consumes this api in order to fetch the details of the several cncf projects and their information which can be needed by the beginner.
-3. We used **Alan AI** to develop a DevOps FAQ and roadmap section which could guide beginners on how to get started. Check out the Alan assistant implemented [here](https://github.com/starlightknown/LearnScape/tree/main/roadmap)
-4. For folks to get more involved and carry the conversations on the platform itself we used **getstream.io** to created a [messaging channel](https://github.com/starlightknown/LearnScape/tree/main/stream-cncfchat) where you could ask anything related to CNCF. 
+3. We used **Alan AI** to develop a DevOps FAQ and roadmap section which could guide beginners on how to get started. Check out the Alan assistant implemented [here](https://github.com/starlightknown/LearnScape/tree/main/client/public/roadmap)
+4. For folks to get more involved and carry the conversations on the platform itself we used **getstream.io** to created a [messaging channel](https://github.com/starlightknown/LearnScape/tree/main/client/public/stream-cncfchat) where you could ask anything related to CNCF. 
 5. Want to escape the chaos caused by server failure? Yes we can! by the use of **Twilio**. We used it to get notifications before a server goes down.
 ```js function serverDownAlerts() {
 	//Twillio function here
