@@ -25,8 +25,20 @@ This platform is developed such that it can guide new folks and learn concepts s
 3. We used **Alan AI** to develop a DevOps FAQ and roadmap section which could guide beginners on how to get started. Check out the Alan assistant implemented [here](https://github.com/starlightknown/LearnScape/tree/main/roadmap)
 4. For folks to get more involved and carry the conversations on the platform itself we used **getstream.io** to created a [messaging channel](https://github.com/starlightknown/LearnScape/tree/main/stream-cncfchat) where you could ask anything related to CNCF. 
 5. Want to escape the chaos caused by server failure? Yes we can! by the use of **Twilio**. We used it to get notifications before a server goes down.
-6. Used **Datree** While starting the configuration it's essential to make sure that there is name specified for the deployment.Not having this might not raise errors by the native development kits (kubectl etc) but naming the deployment configurations while working with several clusters in a team is essential and cosidered a good practice.
-7. Used **Google Dev Library's Firebase** to host the react app. 
+```js function serverDownAlerts() {
+	//Twillio function here
+
+    client.messages
+      .create({
+         body: 'App crashing!!',
+         from: '+15017122661',
+         to: process.env.DEST_NUMBER
+       })
+      .then(message => console.log(message.sid));
+}
+```
+7. Used **Datree** While starting the configuration it's essential to make sure that there is name specified for the deployment.Not having this might not raise errors by the native development kits (kubectl etc) but naming the deployment configurations while working with several clusters in a team is essential and cosidered a good practice.
+8. Used **Google Dev Library's Firebase** to host the react app. 
 
 ## 💪 Challenges we ran into -
 We could not properly implement the API to frontend because of time constrictions and we tried to make use of each and every tool in a creative and unique way possible. This project has still lot of potential and improvements to make. 
@@ -35,7 +47,7 @@ We could not properly implement the API to frontend because of time constriction
 Although we were not familiar with most of the tools and tech we used to build it, we tried and learned on the go to make it possible.
 
 ## 📚 What we learned -
-We learned how to make use of all the tools according to the use case of our project even if they were different.
+We learnt about react and how to make use of all the tools according to the use case of our project even if they were different and sometimes caused a lot of trouble.
 
 ## ⏭ What's next for -
 Proper implementation of frontend to get all the projects from the API. 
