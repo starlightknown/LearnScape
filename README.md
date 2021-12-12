@@ -44,6 +44,7 @@ This platform is developed such that it can guide new folks and learn concepts s
 We could not properly implement the API to frontend because of time constrictions and we tried to make use of each and every tool in a creative and unique way possible. This project has still lot of potential and improvements to make. 
 
 ## 📌 Accomplishments that we're proud of -
+<img src="/screenshots/cli.png?raw=true">
 Although we were not familiar with most of the tools and tech we used to build it, we tried and learned on the go to make it possible.
 
 ## 📚 What we learned -
