@@ -1,4 +1,5 @@
-<h1 align="center"> 📈 LearnScape 📈 </h1>
+<h1 align="center"> 📈 LearnScape 📈 </h1>.
+
 ### Check it out :- http://too-hungry-to.study/
 
 <img src="https://raw.githubusercontent.com/starlightknown/LearnScape/main/learnscape.gif?token=ARZODXPL47CVB33WWK76F6LBXXH32">
