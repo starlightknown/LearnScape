@@ -34,6 +34,8 @@ You will also see any lint errors in the console.
 
 ### View the [Backend API Documentation](https://github.com/starlightknown/LearnScape/tree/main/api#-1-apiv1projects) 
 
+### Watch the Demo Video
+
 ## Inspiration
 Going through the CNCF landscape and getting started with contributions gets overwhelming. We wanted to simplify the existing landscape for beginners and added a roadmap too for folks who want to learn more in the field of DevOps. 
 
