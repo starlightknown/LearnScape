@@ -12,7 +12,7 @@ Going through the CNCF landscape and getting started with contributions gets ove
 
 This platform is developed such that it can guide new folks and learn concepts such as Docker and Kubernetes even if they contribute to this project because of the tools used in this project such as Docker, Datree, Alan AI, Firebase and Twilio. 
 
-This section is the backend/ api of the project. The fronted/client consumes this api in order to fetch the details of the several cncf projects and their information which can be needed by the beginner.
+This section is the backend api of the project. The fronted/client consumes this api in order to fetch the details of the several cncf projects and their information which can be needed by the beginner.
 
 ## 🛤 Routes Available -
 
