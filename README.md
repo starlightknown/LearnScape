@@ -9,6 +9,7 @@
 <a href="https://github.com/starlightknown/LearnScape"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
 <a href="https://github.com/starlightknown/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
 
+<!-- 
 Table of Contents
 =================
 
@@ -16,7 +17,7 @@ Table of Contents
   * [Inspiration](#Inspiration)
   * [Use Case](#usecase)
   * [Contribute](#project-setup--contribution-steps)
-  * [License](#license)
+  * [License](#license) -->
 
 ### Installation
 
@@ -25,6 +26,13 @@ In the project directory, you can run:
 ### `npm install`
 ### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### View the [Backend API Documentation](https://github.com/starlightknown/LearnScape/tree/main/api#-1-apiv1projects) 
 
 ## Inspiration
 Going through the CNCF landscape and getting started with contributions gets overwhelming. We wanted to simplify the existing landscape for beginners and added a roadmap too for folks who want to learn more in the field of DevOps. 
