@@ -9,18 +9,37 @@
 <a href="https://github.com/starlightknown/LearnScape"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
 <a href="https://github.com/starlightknown/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
 
-## 💡 Inspiration -
+Table of Contents
+=================
+
+  * [Installation](#installation)
+  * [Inspiration](#Inspiration)
+  * [Use Case](#usecase)
+  * [Contribute](#project-setup--contribution-steps)
+  * [License](#license)
+
+### Installation
+
+In the project directory, you can run:
+
+### `npm install`
+### `npm start`
+
+
+## Inspiration
 Going through the CNCF landscape and getting started with contributions gets overwhelming. We wanted to simplify the existing landscape for beginners and added a roadmap too for folks who want to learn more in the field of DevOps. 
 
 This platform is developed such that it can guide new folks and learn concepts such as Docker and Kubernetes even if they contribute to this project because of the tools used in this project such as Docker, Datree, Alan AI, Firebase, getstream.io and Twilio. 
 
-## ⚙ What it does -
+<div id="#usecase">
+
+## ⚙ What it does - 
 - Simplified CNCF LandScape where you can filter, search projects to contribute according to your tech stack
 - Get your questions answered about DevOps by Alan AI
 - Get your own personalised roadmap to reach your goal of DevOps
 - Twilio will alert the project admins if there occurs any error in the server and server is about to shut down
 - Get your brains working and join, network with other contributors of CNCF in the chat channel powered by getstream.io
-
+</div>
 ## 🔧 How we built it-
 1. Developed an API to get all the projects in the database and specific project from large project data. The project id is given by the database. This API will also give you number of project provided in limit field and you can increment the page no to get the next limit frame data along all names of the projects. Check out the documentation of API [here](https://github.com/starlightknown/LearnScape/tree/main/api)
 2. The fronted/client consumes this api in order to fetch the details of the several cncf projects and their information which can be needed by the beginner.
@@ -54,4 +73,52 @@ We learnt about react and how to make use of all the tools according to the use 
 
 ## ⏭ What's next for -
 Proper implementation of frontend to get all the projects from the API. 
+
+
+## 🙌 Want to contribute?
+If you would like to contribute to this api please go ahead and read [COC](../CODE_OF_CONDUCT.md) and [Contributing Guideline](../CONTRIBUTING.md). Once you read through them agree to policies of this project go ahead with **Project setup & Contribution** steps below
+
+### Pre-requisites
+
+1. NodeJs installed in local environment.
+2. Git installed in local environment.
+3. GitHub account.
+
+### Project setup & Contribution steps
+
+1. Fork the project
+![forking the project](https://i.imgur.com/qbVouuV.png)
+
+2. Once you are in your fork the url should look something like
+`https://github.com/<YOUR-USERNAME>/LearnScape/`
+
+3. Go to preferred folder in your computer and paste the following command (Only one of it if you don't have ssh setup then go with HTTP command)
+   - HTTP
+   `git clone https://github.com/<YOUR-USERNAME>/LearnScape.git`
+   - SSH
+   `git clone git@github.com:<YOUR-USERNAME>/LearnScape.git`
+
+4. Now enter the folder by running the following command
+`cd LearnScape/api`
+
+5. Now you are in the `/api` folder
+
+6. Now do ahead and create a new branch and move to the branch
+`git checkout -b fix-issue-<ISSUE-NUMBER>`
+
+7. Now run `npm i` and once it's done do your fixes and changes.
+
+8. After done you can now push this changes. for doing that follow the following command chain
+   - `git status` (Shows the changed files)
+   - `git add .` (Will add all the files to staging area)
+   - `git commit -m "feat/docs/fix: :emoji-name: <EXPLAIN-YOUR_CHANGES>"`
+   - `git push origin fix-issue-<ISSUE-NUMBER>`
+
+9. After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
+
+10. Now fill in the form template of the pull request
+
+11. Click on **Submit**
+
+12. Hurrey! You just did your contribution to this project 🎉
 
