@@ -50,6 +50,7 @@ This platform is developed such that it can guide new folks and learn concepts s
 - Twilio will alert the project admins if there occurs any error in the server and server is about to shut down
 - Get your brains working and join, network with other contributors of CNCF in the chat channel powered by getstream.io
 </div>
+
 ## 🔧 How we built it-
 1. Developed an API to get all the projects in the database and specific project from large project data. The project id is given by the database. This API will also give you number of project provided in limit field and you can increment the page no to get the next limit frame data along all names of the projects. Check out the documentation of API [here](https://github.com/starlightknown/LearnScape/tree/main/api)
 2. The fronted/client consumes this api in order to fetch the details of the several cncf projects and their information which can be needed by the beginner.
