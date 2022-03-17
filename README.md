@@ -8,7 +8,8 @@
 <a href="https://github.com/starlightknown/LearnScape"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
 <a href="https://github.com/starlightknown/LearnScape"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
 <a href="https://github.com/starlightknown/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
-
+## Cloud Native Hackathon Winner
+![badge](https://user-images.githubusercontent.com/74637789/158756247-2bfcf77a-e600-4e24-920a-24181fd05ed6.png)
 <!-- 
 Table of Contents
 =================
