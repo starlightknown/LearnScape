@@ -88,7 +88,7 @@ Proper implementation of frontend to get all the projects from the API.
 
 
 ## 🙌 Want to contribute?
-If you would like to contribute to this api please go ahead and read [COC](../CODE_OF_CONDUCT.md) and [Contributing Guideline](../CONTRIBUTING.md). Once you read through them agree to policies of this project go ahead with **Project setup & Contribution** steps below
+If you would like to contribute to this api please go ahead and read [COC](/CODE_OF_CONDUCT.md) and [Contributing Guideline](/CONTRIBUTING.md). Once you read through them agree to policies of this project go ahead with **Project setup & Contribution** steps below
 
 ### Pre-requisites
 
